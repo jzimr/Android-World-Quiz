@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:weightSum="4"
+    tools:context=".MainMenuActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        style="@style/HeaderBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Main Menu"
+        app:titleTextColor="@color/colorTextColor" />
+
+    <Button
+        android:id="@+id/geographyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="0.3"
+        android:background="@drawable/rounded_button_layout"
+        android:backgroundTint="@color/colorOption3"
+        android:text="Geography"
+        android:textColor="@color/colorTextColor"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/historyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="0.3"
+        android:background="@drawable/rounded_button_layout"
+        android:backgroundTint="@color/colorOption3"
+        android:text="History"
+        android:textColor="@color/colorTextColor"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/literatureButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="100dp"
+        android:layout_weight="0.3"
+        android:background="@drawable/rounded_button_layout"
+        android:backgroundTint="@color/colorOption3"
+        android:text="Literature"
+        android:textColor="@color/colorTextColor"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/earnedPointsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="0.3"
+        android:background="@drawable/rounded_button_layout"
+        android:backgroundTint="@color/colorOption4"
+        android:text="Earned Points"
+        android:textColor="@color/colorTextColor"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/exitAppButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="30dp"
+        android:layout_weight="0.3"
+        android:background="@drawable/rounded_button_layout"
+        android:backgroundTint="@color/colorOption4"
+        android:text="Exit"
+        android:textColor="@color/colorTextColor"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+</LinearLayout>
